@@ -65,6 +65,6 @@ jobs:
       - name: Run Hohai Daily Checkin
         working-directory: scripts
         env:
-          HACHIMI_BATCH: ${{ secrets.HACHIMI_BATCH }}
+          HOHAI_BATCH: ${{ secrets.HOHAI_BATCH }}
         run: |
           python hohai_checkin.py
