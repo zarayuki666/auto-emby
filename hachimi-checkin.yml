@@ -23,7 +23,7 @@ jobs:
       - name: Checkout private repo (hohai-auto)
         uses: actions/checkout@v4
         with:
-          repository: ${{ github.repository_owner }}/hachimi-auto
+          repository: ${{ github.repository_owner }}/emby-hachimi
           token: ${{ secrets.PRIVATE_REPO_TOKEN }}
           path: scripts
 
